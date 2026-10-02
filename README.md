@@ -131,3 +131,15 @@ meter and enter it as the offset so the readout shows the real power.
 ## License
 
 GNU GPL v3.0.
+
+## IMPORTANT THANKS and REFERENCE
+
+The Graphical design was borrowed from the dotNet app from @LostInNovo
+
+https://github.com/LostInNovo/rf-power-meter-v5-companion
+
+Also the original device software, in Mandarin, can be downloaded from [http://115.28.16.44:81/file/812.rar](http://115.28.16.44:81/file/812.rar)
+
+```
+wget http://115.28.16.44:81/file/812.rar -O powermeter.rar --timeout=30 --show-progress --wait=5
+```

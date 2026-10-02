@@ -1,0 +1,13 @@
+# USB RF Power Meter V5 (STM32 virtual COM port, 0483:5740)
+#
+#  - lets any logged-in user open the port without joining the dialout group (uaccess)
+#  - tells ModemManager to leave it alone: its AT-command probing on plug-in confuses the
+#    meter's fragile command parser
+#
+# Install:
+#   sudo cp 99-rf-powermeter.rules /etc/udev/rules.d/
+#   sudo udevadm control --reload-rules && sudo udevadm trigger
+#
+# Note: 0483:5740 is ST's generic VCP id, shared by other STM32 gadgets.
+
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", TAG+="uaccess", ENV{ID_MM_DEVICE_IGNORE}="1"

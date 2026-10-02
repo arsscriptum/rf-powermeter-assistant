@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=RF Power Meter V5 Assistant
+GenericName=RF Power Meter
+Comment=Live readout, charts and sweep scope for the USB RF Power Meter V5
+Exec=rf-powermeter-assistant
+Icon=rf-powermeter-assistant
+Terminal=false
+Categories=Utility;Electronics;HamRadio;
+Keywords=RF;power;meter;dBm;AD8317;AD8318;

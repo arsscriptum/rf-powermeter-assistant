@@ -1,0 +1,16 @@
+tmp
+tmp/**
+.claude_shared
+.claude_shared/**
+bin
+bin/**
+obj
+obj/**
+ref
+ref/**
+qt/build
+qt/build/**
+qt/build*/
+qt/out
+qt/out/**
+CMakeUserPresets.json

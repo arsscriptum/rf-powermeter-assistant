@@ -1,11 +1,7 @@
 # RF Power Meter Assistant
 
-![1](img/1.png)
-
 Companion software for the cheap Chinese **USB RF Power Meter V5** (STM32 + AD8317/AD8318,
 100 kHz – 10 GHz, about 0 to −60 dBm, USB-C, shows up as an ST virtual COM port `0483:5740`).
-
-![3](img/3.png)
 
 The vendor app is Windows-only and minimal. This repo has two replacements:
 
@@ -127,6 +123,10 @@ meter and enter it as the offset so the readout shows the real power.
 ## Test setup
 
 ![hackrf_meter](img/hackrf_meter.png)
+
+## Device Image
+
+![1](img/13s.png)
 
 ## License
 

@@ -143,3 +143,8 @@ Also the original device software, in Mandarin, can be downloaded from [http://1
 ```
 wget http://115.28.16.44:81/file/812.rar -O powermeter.rar --timeout=30 --show-progress --wait=5
 ```
+
+## Author
+
+[Guillaume Plante](mailto:gp@arsscriptum.ca)
+[https://arsscriptum.ca](https://arsscriptum.ca)
